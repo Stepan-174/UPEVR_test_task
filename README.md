@@ -7,13 +7,14 @@
 Программа использует модель distilbert-base-uncased-finetuned-sst-2-english для определения позитивной или негативной тональности текста. Пользователь вводит расшифровку звонка, и приложение выводит оценку и рекомендации.
 
 Используемая модель
-Модель: distilbert-base-uncased-finetuned-sst-2-english
-Ссылка: https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english
+Модель: distilbert-base-uncased-finetuned-sst-2-english.
+
+Ссылка: https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english.
 Описание: Легкая версия BERT, обученная на задаче анализа настроений (sentiment analysis).
 Тип: Трансформер, основанный на PyTorch.
 
 Требования к запуску
-Перед запуском убедитесь, что у вас установлены необходимые библиотеки или установите через консоль:
+Перед запуском убедитесь, что у вас установлены необходимые библиотеки или установите через консоль
 pip install streamlit transformers torch
 
 Как запустить проект
